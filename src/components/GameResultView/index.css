@@ -1,0 +1,121 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  background-color: #223a5f;
+}
+.header-container {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.game-name {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.score-cont{
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.score-para {
+  color: black;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+.score-para-2 {
+  color: black;
+  font-family: Roboto;
+  font-size: 15px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 30px;
+}
+.image-width-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin: 5px;
+}
+.heading {
+  color: white;
+  font-size: 15px;
+  margin: 5px;
+}
+.image-item {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.play-btn {
+  height: 30px;
+  width: 90px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px;
+  color: black;
+  font-family: Bree Serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.popup-container {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+.image-cont {
+  height: 80%;
+  width: 90%;
+}
+.btn-cont {
+  align-self: flex-end;
+}
+.btn-container {
+  align-self: flex-end;
+}
+.rules-img {
+  height: 70%;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    justify-content: space-around;
+  }
+  .image-container {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 10px;
+  }
+  .image-width-cont {
+    width: 45%;
+    margin: 0px;
+  }
+}

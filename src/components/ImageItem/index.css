@@ -1,0 +1,12 @@
+.list-item {
+  list-style-type: none;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.img-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
